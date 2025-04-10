@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* CORES DO SITE
+- azul claro | azul escuro
+- Linear gradient BODY: #3EC1D3 → #1F3A5F
+
+*/
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    
+    background: linear-gradient(to bottom, #3EC1D3, #1F3A5F);
+
+
+
+
+
+
+    
+}
