@@ -38,12 +38,16 @@ section#login {
     width: 330px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+
+    transition: width 0.1s, height 0.1s;
+    -moz-transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background-image: url(../imagens/pexels-photo-1774931.jpeg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: bottom center;
     height: 200px;
 }
