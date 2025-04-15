@@ -30,7 +30,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     
     background-color: white;
@@ -39,8 +38,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 
-    
-
+    transform: translate(-50%, -50%);
     transition: width 0.1s, height 0.1s;
     -moz-transition-timing-function: ease;
 }
@@ -57,7 +55,6 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
-
 }
 
 div#formulario > h1 {
@@ -78,7 +75,6 @@ div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 8px 0px;
-    
 }
 
 div.campo > label {
@@ -86,7 +82,6 @@ div.campo > label {
 }
 
 div.campo > span {
-    
     color: white;
     font-size: 2em;
     width: 40px;
@@ -136,15 +131,6 @@ form .opcoes .botao:hover {
     color: rgb(4, 4, 109);
     text-decoration: underline;
 }
-
-/*.checkbox-lembrar {
-    font-size: 12px;
-}*/
-
-/*form > .opcoes > a.botao {
-    font-size: 10px;
-    text-align: right;
-}*/
 
 form > input[type=submit]:hover {
     background-color: #0e1724;
