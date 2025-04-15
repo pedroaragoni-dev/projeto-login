@@ -39,6 +39,8 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 
+    
+
     transition: width 0.1s, height 0.1s;
     -moz-transition-timing-function: ease;
 }
@@ -57,6 +59,100 @@ section#login > div#formulario {
     padding: 10px;
 
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+div#formulario > p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+div.campo {
+    background-color: #2b94a1;
+    display: block;
+    border: 3px solid #2b94a1;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-5px);
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+    transform: translateY(-14px);
+
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1F3A5F;
+    color: white;
+    cursor: pointer; 
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 5px;
+    margin-bottom: 21px;
+    font-size: 13px;
+}
+
+form .opcoes .botao {
+    color: #0e1724;
+    text-decoration: underline;
+}
+
+form .opcoes .botao:hover {
+    color: rgb(4, 4, 109);
+    text-decoration: underline;
+}
+
+/*.checkbox-lembrar {
+    font-size: 12px;
+}*/
+
+/*form > .opcoes > a.botao {
+    font-size: 10px;
+    text-align: right;
+}*/
+
+form > input[type=submit]:hover {
+    background-color: #0e1724;
+}
+
+
+
+
     
     
 
